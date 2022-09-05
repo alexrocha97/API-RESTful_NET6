@@ -15,15 +15,13 @@ namespace API.Controllers
             _serviceUpload = serviceUpload;
         }
 
+        [HttpPost]
         public async Task<ActionResult> Upload(IFormFile file)
         {
             try
             {
                 var img = await _serviceUpload.Upload(file);
-                return Ok(new {
-                    mensagem = "Imagem salva com sucesso!",
-                    urlImagem = $"http://localhost:5055/img/{img.FileName}"
-                });
+                return Ok(img);
             }
             catch(Exception ex)
             {

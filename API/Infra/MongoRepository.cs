@@ -25,7 +25,7 @@ namespace API.Infra
 
             _model = database.GetCollection<T>(typeof(T).Name.ToLower());
         }
-        public List<T> GetAll() => _model.Find(news => news.Deleted == false).ToList();
+        public List<T> GetAll() => _model.Find(T => T.Deleted == false).ToList();
 
         public T GetById(string id) =>
             _model.Find<T>(news => news.Id == id && news.Deleted == false).FirstOrDefault();

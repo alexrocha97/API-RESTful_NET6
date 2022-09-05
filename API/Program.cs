@@ -24,6 +24,8 @@ builder.Services.AddSingleton<IDatabaseSettings>(sp => sp.GetRequiredService<IOp
 #region [DI]
 builder.Services.AddSingleton(typeof(IMongoRepository<>), typeof(MongoRepository<>));
 builder.Services.AddSingleton<NewsService>();
+builder.Services.AddSingleton<ProdutoService>();
+builder.Services.AddSingleton<IProdutoApp,ProdutoApp>();
 builder.Services.AddSingleton<IUploadImg, UploadImg>();
 builder.Services.AddSingleton<IValidationImg, ValidationImg>();
 #endregion

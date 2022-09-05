@@ -1,7 +1,9 @@
+using API.Entities;
+
 namespace API.Application.InterfacesApp
 {
     public interface IUploadImg
     {
-        Task<IFormFile> Upload(IFormFile file);
+        Task<ImagemMsg> Upload(IFormFile file);
     }
 }
