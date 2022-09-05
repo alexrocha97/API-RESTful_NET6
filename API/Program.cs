@@ -1,6 +1,10 @@
+using API.Application.InterfacesApp;
+using API.Application.ServiceApp;
 using API.Infra;
+using API.Interfaces.UploadImg;
 using API.Mappers;
 using API.Services;
+using API.Validations.UploadImg;
 using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +24,8 @@ builder.Services.AddSingleton<IDatabaseSettings>(sp => sp.GetRequiredService<IOp
 #region [DI]
 builder.Services.AddSingleton(typeof(IMongoRepository<>), typeof(MongoRepository<>));
 builder.Services.AddSingleton<NewsService>();
+builder.Services.AddSingleton<IUploadImg, UploadImg>();
+builder.Services.AddSingleton<IValidationImg, ValidationImg>();
 #endregion
 
 #region [AutoMapper]
