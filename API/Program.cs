@@ -5,6 +5,7 @@ using API.Interfaces.UploadImg;
 using API.Mappers;
 using API.Services;
 using API.Validations.UploadImg;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -40,7 +41,6 @@ builder.Services.AddCors();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -54,6 +54,13 @@ app.UseCors(c =>
     c.AllowAnyMethod();
     c.AllowAnyOrigin();
 
+});
+#endregion
+
+#region StaticFiles
+app.UseStaticFiles(new StaticFileOptions{
+    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "Imagens")),
+    RequestPath = "/img"
 });
 #endregion
 
