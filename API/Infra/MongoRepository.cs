@@ -8,6 +8,7 @@ namespace API.Infra
     {
         List<T> GetAll();
         T GetById(string id);
+        T GetBySlug(string slug);
         T Create(T news);
         void Update(string id, T news);
         void Remove(string id);
@@ -43,6 +44,11 @@ namespace API.Infra
             var news = GetById(id);
             news.Deleted = true;
             _model.ReplaceOne(news => news.Id == id, news);
+        }
+
+        public T GetBySlug(string slug)
+        {
+            return _model.Find<T>(news => news.Slug == slug && news.Deleted == false).FirstOrDefault();
         }
     }
 }

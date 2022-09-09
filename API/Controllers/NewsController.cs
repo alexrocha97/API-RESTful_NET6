@@ -1,11 +1,6 @@
 ﻿using API.Entities.ViewModels;
 using API.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace API.Controllers
 {
@@ -35,6 +30,12 @@ namespace API.Controllers
                 return NotFound();
 
             return news;
+        }
+
+        [HttpGet("GetBySlug/")]
+        public ActionResult<NewsViewModel> GetBySlug(string slug)
+        {
+            return _newsService.GetBySlug(slug);
         }
 
         [HttpPost]
