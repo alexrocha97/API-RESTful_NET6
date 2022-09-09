@@ -9,6 +9,7 @@ namespace API.Entities
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
         public bool Deleted { get; set; }
+        public string Slug { get; set; }
 
     }
 }
