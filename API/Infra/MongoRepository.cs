@@ -1,12 +1,11 @@
 ﻿using API.Entities;
 using MongoDB.Driver;
-using System.Collections.Generic;
 
 namespace API.Infra
 {
     public interface IMongoRepository<T>
     {
-        List<T> GetAll();
+        Result<T> GetAll(int page, int qtd);
         T GetById(string id);
         T GetBySlug(string slug);
         T Create(T news);
@@ -26,7 +25,22 @@ namespace API.Infra
 
             _model = database.GetCollection<T>(typeof(T).Name.ToLower());
         }
-        public List<T> GetAll() => _model.Find(T => T.Deleted == false).ToList();
+        public Result<T> GetAll(int page, int qtd)
+        {
+            var result = new Result<T>();
+            result.Page = page;
+            result.Qtd = qtd;
+            var filter = Builders<T>.Filter.Eq(entity => entity.Deleted,false);
+            var totalDocuments = _model.CountDocuments(filter);
+
+            result.Data = _model.Find(filter).SortByDescending(entity => entity.PublishDate).Skip((page - 1) * qtd).Limit(qtd).ToList();
+
+            result.Total = (int)totalDocuments;
+
+            result.TotalPages = result.Total / qtd;
+
+            return result;
+        }
 
         public T GetById(string id) =>
             _model.Find<T>(news => news.Id == id && news.Deleted == false).FirstOrDefault();

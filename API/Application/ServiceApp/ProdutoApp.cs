@@ -17,9 +17,9 @@ namespace API.Application.ServiceApp
             return await _produtoMongo.Create(produto);
         }
 
-        public async Task<List<Produto>> GetAll()
+        public async Task<List<Produto>> GetAll(int page, int qtd)
         {
-            return await _produtoMongo.GetAll();
+            return await _produtoMongo.GetAll(page, qtd);
         }
 
         public async Task<Produto> GetById(string Id)

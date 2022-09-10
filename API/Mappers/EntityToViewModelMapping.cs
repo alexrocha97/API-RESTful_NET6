@@ -9,6 +9,7 @@ namespace API.Mappers
         public EntityToViewModelMapping()
         {
             CreateMap<News, NewsViewModel>();
+            CreateMap<Video, VideoViewModel>();
         }
     }
 }

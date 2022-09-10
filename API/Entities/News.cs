@@ -8,7 +8,13 @@ namespace API.Entities
     public class News : BaseEntity
     {
 
-        public News(string hat, string title, string text, string author, string img,Status status)
+        public News(
+            string hat, 
+            string title, 
+            string text, 
+            string author, 
+            string img,
+            Status status)
         {
             Hat = hat;
             Title = title;
@@ -55,12 +61,6 @@ namespace API.Entities
 
         [BsonElement("img")]
         public string Img { get; private set; }
-
-        [BsonElement("publishDate")]
-        public DateTime PublishDate { get; private set; }
-
-        [BsonElement("active")]
-        public Status Status { get; private set; }
 
         public void ValidateEntity()
         {

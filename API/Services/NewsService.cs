@@ -18,9 +18,9 @@ namespace API.Services
             _mapper = mapper;
             _news = news;
         }
-        public List<NewsViewModel> GetAll()
+        public Result<NewsViewModel> GetAll(int page, int qtd)
         {
-            return _mapper.Map<List<NewsViewModel>>(_news.GetAll().ToList());
+            return _mapper.Map<Result<NewsViewModel>>(_news.GetAll(page, qtd));
         }
 
 

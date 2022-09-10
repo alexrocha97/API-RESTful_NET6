@@ -1,4 +1,5 @@
-﻿using API.Entities.ViewModels;
+﻿using API.Entities;
+using API.Entities.ViewModels;
 using API.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,10 +20,10 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<NewsViewModel>> Get() => _newsService.GetAll();
+        public ActionResult<Result<NewsViewModel>> GetAll(int page, int qtd) => _newsService.GetAll(page, qtd);
 
         [HttpGet("{id:length(24)}", Name = "GetNews")]
-        public ActionResult<NewsViewModel> Get(string id)
+        public ActionResult<NewsViewModel> GetId(string id)
         {
             var news = _newsService.Get(id);
 
@@ -30,12 +31,6 @@ namespace API.Controllers
                 return NotFound();
 
             return news;
-        }
-
-        [HttpGet("GetBySlug/")]
-        public ActionResult<NewsViewModel> GetBySlug(string slug)
-        {
-            return _newsService.GetBySlug(slug);
         }
 
         [HttpPost]

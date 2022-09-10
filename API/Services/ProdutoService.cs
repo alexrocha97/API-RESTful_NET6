@@ -11,11 +11,12 @@ namespace API.Services
             _mongoProduto = mongoProduto;
         }
 
-        public async Task<List<Produto>> GetAll()
+        public async Task<List<Produto>> GetAll(int page, int qtd)
         {
-            var lstprodutos = await Task.Run(() => _mongoProduto.GetAll().ToList());
-            var lstproduto = _mongoProduto.GetAll();
-            return lstprodutos;
+            var produto = new List<Produto>();
+            var lstprodutos = await Task.Run(() => _mongoProduto.GetAll(page,qtd));
+            var lstproduto = _mongoProduto.GetAll(page, qtd);
+            return produto;
         }
 
         public async Task<Produto> GetById(string Id)
