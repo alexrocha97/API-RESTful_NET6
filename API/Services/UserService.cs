@@ -15,6 +15,14 @@ namespace API.Services
             _mapper = mapper;
         }
 
+        public bool ValidateUser(LoginViewModel loginUser)
+        {
+            var result = GetAll()
+                .Where(x => x.Email == loginUser.Username 
+                        && x.Password == loginUser.Password).Any();
+            return result;
+        }
+
         public List<UserViewModel> GetAll()
         {
             return _mapper.Map<List<UserViewModel>>(_user.Getall());
