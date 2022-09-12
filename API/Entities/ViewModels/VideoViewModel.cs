@@ -9,8 +9,9 @@ namespace API.Entities.ViewModels
         public string Title { get; set; }
         public string Author { get; set; }
         public string Thumbnail { get; set; }
-        public string Slug { get; set; }
+        public string UrlVideo { get; set; }
+        public string? Slug { get; protected set; }
         public Status Status { get; set; }
-        public string Url { get; set; }
+        public DateTime PublishDate { get; protected set; }
     }
 }

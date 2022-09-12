@@ -11,11 +11,11 @@ namespace API.Entities
         public string Id { get; set; }
         public bool Deleted { get; set; }
         public string Slug { get; set; }
+
         [BsonElement("publishDate")]
-        public DateTime PublishDate { get; set; }
+        public DateTime PublishDate { get; protected set; }
 
         [BsonElement("active")]
-        public Status Status { get; set; }
-
+        public Status Status { get; protected set; }
     }
 }

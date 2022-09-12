@@ -7,25 +7,33 @@ namespace API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class VideosExternalController : ControllerBase
+    public class NewsExternalController : ControllerBase
     {
 
-        private readonly ILogger<NewsController> _logger;
+        private readonly ILogger<NewsExternalController> _logger;
         private readonly NewsService _newsService;
 
-        public VideosExternalController(ILogger<NewsController> logger, NewsService newsService)
+        public NewsExternalController(ILogger<NewsExternalController> logger, NewsService newsService)
         {
             _logger = logger;
             _newsService = newsService;
         }
 
-        [HttpGet]
-        public ActionResult<Result<NewsViewModel>> GetAll(int page, int qtd) => _newsService.GetAll(page, qtd);
+        [HttpGet("{page}/{qtd}")]
+        public ActionResult<Result<NewsViewModel>> Get(int page, int qtd) => _newsService.Get(page, qtd);
 
-        [HttpGet("GetBySlug/{slug}")]
-        public ActionResult<NewsViewModel> GetBySlug(string slug)
+
+        [HttpGet("{slug}")]
+        public ActionResult<NewsViewModel> Get(string slug)
         {
-            return _newsService.GetBySlug(slug);
+            var news = _newsService.GetBySlug(slug);
+
+            if (news is null)
+                return NotFound();
+
+            return news;
         }
+
+
     }
 }

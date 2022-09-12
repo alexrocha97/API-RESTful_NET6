@@ -19,11 +19,11 @@ namespace API.Controllers
             _newsService = newsService;
         }
 
-        [HttpGet]
-        public ActionResult<Result<NewsViewModel>> GetAll(int page, int qtd) => _newsService.GetAll(page, qtd);
+        [HttpGet("{page}/{qtd}")]
+        public ActionResult<Result<NewsViewModel>> Get(int page, int qtd) => _newsService.Get(page, qtd);
 
         [HttpGet("{id:length(24)}", Name = "GetNews")]
-        public ActionResult<NewsViewModel> GetId(string id)
+        public ActionResult<NewsViewModel> Get(string id)
         {
             var news = _newsService.Get(id);
 

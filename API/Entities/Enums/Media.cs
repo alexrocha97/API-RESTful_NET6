@@ -1,4 +1,4 @@
-namespace API.Entities.Enums
+﻿namespace API.Entities.Enums
 {
     public enum Media
     {

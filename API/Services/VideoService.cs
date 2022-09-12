@@ -1,5 +1,5 @@
-﻿using API.Entities.ViewModels;
-using API.Entities;
+﻿using API.Entities;
+using API.Entities.ViewModels;
 using API.Infra;
 using AutoMapper;
 
@@ -9,43 +9,39 @@ namespace API.Services
     {
         private readonly IMapper _mapper;
 
-        private readonly IMongoRepository<Video> _videos;
+        private readonly IMongoRepository<Video> _video;
 
-        public VideoService(IMongoRepository<Video> videos, IMapper mapper)
+        public VideoService(IMongoRepository<Video> video, IMapper mapper)
         {
             _mapper = mapper;
-            _videos = videos;
-        }
-        public Result<VideoViewModel> GetAll(int page, int qtd)
-        {
-            return _mapper.Map<Result<VideoViewModel>>(_videos.GetAll(page, qtd));
+            _video = video;
         }
 
+        public Result<VideoViewModel> Get(int page, int qtd) =>
+            _mapper.Map<Result<VideoViewModel>>(_video.Get(page, qtd));
 
-        public VideoViewModel Get(string id)
+
+        public VideoViewModel Get(string id) =>
+           _mapper.Map<VideoViewModel>(_video.Get(id));
+
+        public VideoViewModel GetBySlug(string slug) =>
+       _mapper.Map<VideoViewModel>(_video.GetBySlug(slug));
+
+
+        public VideoViewModel Create(VideoViewModel video)
         {
-            return _mapper.Map<VideoViewModel>(_videos.GetById(id));
-        }
-
-
-        public VideoViewModel GetBySlug(string slug)
-        {
-            return _mapper.Map<VideoViewModel>(_videos.GetBySlug(slug));
-        }
-
-        public VideoViewModel Create(VideoViewModel videos)
-        {
-            var entity = new Video(videos.Hat, videos.Title, videos.Author, videos.Thumbnail, videos.Status, videos.Url);
-            _videos.Create(entity);
+            var entity = new Video(video.Hat, video.Title, video.Author, video.Thumbnail, video.UrlVideo, video.Status);
+            _video.Create(entity);
 
             return Get(entity.Id);
         }
 
         public void Update(string id, VideoViewModel newsIn)
         {
-            _videos.Update(id, _mapper.Map<Video>(newsIn));
+            _video.Update(id, _mapper.Map<Video>(newsIn));
         }
 
-        public void Remove(string id) => _videos.Remove(id);
+        public void Remove(string id) => _video.Remove(id);
+
     }
 }

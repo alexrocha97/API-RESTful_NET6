@@ -1,10 +1,6 @@
-using API.Application.InterfacesApp;
-using API.Application.ServiceApp;
 using API.Infra;
-using API.Interfaces.UploadImg;
 using API.Mappers;
 using API.Services;
-using API.Validations.UploadImg;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Options;
 
@@ -27,10 +23,6 @@ builder.Services.AddSingleton(typeof(IMongoRepository<>), typeof(MongoRepository
 builder.Services.AddSingleton<NewsService>();
 builder.Services.AddSingleton<VideoService>();
 builder.Services.AddTransient<UploadService>();
-builder.Services.AddSingleton<ProdutoService>();
-builder.Services.AddSingleton<IProdutoApp,ProdutoApp>();
-builder.Services.AddSingleton<IUploadImg, UploadImg>();
-builder.Services.AddSingleton<IValidationImg, ValidationImg>();
 #endregion
 
 #region [AutoMapper]
@@ -43,6 +35,7 @@ builder.Services.AddCors();
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -59,9 +52,11 @@ app.UseCors(c =>
 });
 #endregion
 
-#region StaticFiles
-app.UseStaticFiles(new StaticFileOptions{
-    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "Medias")),
+#region [StaticFiles]
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+           Path.Combine(builder.Environment.ContentRootPath, "Medias")),
     RequestPath = "/medias"
 });
 #endregion

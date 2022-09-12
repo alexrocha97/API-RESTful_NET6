@@ -1,0 +1,12 @@
+API.Tests.Services.UploadServiceTestes.Should_verify_if_Type_is_Image_or_Video
+API.Tests.Services.UploadServiceTestes.Should_verify_if_Type_isent_Image_or_Video
+API.Tests.Infra.HelperTests.Should_return_Validate_Slug
+API.Tests.Entities.NewsTests.News_Validate_Title_Lenght
+API.Tests.Entities.NewsTests.News_Validate_Hat_Lenght
+API.Tests.Entities.NewsTests.News_Validate_Title_Empty
+API.Tests.Entities.NewsTests.News_Validate_Hat_Empty
+API.Tests.Entities.NewsTests.News_Validate_Description_Empty
+API.Tests.Entities.VideoTests.News_Validate_Title_Lenght
+API.Tests.Entities.VideoTests.News_Validate_Hat_Lenght
+API.Tests.Entities.VideoTests.News_Validate_Title_Empty
+API.Tests.Entities.VideoTests.News_Validate_Hat_Empty

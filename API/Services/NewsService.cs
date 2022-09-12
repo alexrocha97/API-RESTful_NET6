@@ -18,22 +18,17 @@ namespace API.Services
             _mapper = mapper;
             _news = news;
         }
-        public Result<NewsViewModel> GetAll(int page, int qtd)
-        {
-            return _mapper.Map<Result<NewsViewModel>>(_news.GetAll(page, qtd));
-        }
+
+        public Result<NewsViewModel> Get(int page, int qtd) =>
+            _mapper.Map<Result<NewsViewModel>>(_news.Get(page, qtd));
 
 
-        public NewsViewModel Get(string id)
-        {
-            return _mapper.Map<NewsViewModel>(_news.GetById(id));
-        }
-           
+        public NewsViewModel Get(string id) =>
+           _mapper.Map<NewsViewModel>(_news.Get(id));
 
-        public NewsViewModel GetBySlug(string slug)
-        {
-           return _mapper.Map<NewsViewModel>(_news.GetBySlug(slug));
-        }
+        public NewsViewModel GetBySlug(string slug) =>
+       _mapper.Map<NewsViewModel>(_news.GetBySlug(slug));
+
 
         public NewsViewModel Create(NewsViewModel news)
         {

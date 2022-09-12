@@ -1,4 +1,4 @@
-using API.Domain;
+﻿using API.Entities;
 using API.Entities.Enums;
 using ImageProcessor;
 using ImageProcessor.Plugins.WebP.Imaging.Formats;
@@ -15,12 +15,14 @@ namespace API.Services
 
         public Media GetTypeMedia(string filename)
         {
-            string [] imageExtensions = {".png", ".jpg", ".jpeg", ".webp"};
-            string [] videoExtensions = {".avi", ".mp4"};
+            string[] imageExtensions = { ".png", ".jpg", ".jpeg", ".webp" };
+
+            string[] videoExtensions = {
+                ".avi", ".mp4" };
 
             var fileInfo = new FileInfo(filename);
 
-            return imageExtensions.Contains(fileInfo.Extension) ? Media.Image : videoExtensions.Contains(fileInfo.Extension) ? Media.Video : throw new DomainException("Formato errado de arquivo!");
+            return imageExtensions.Contains(fileInfo.Extension) ? Media.Image : videoExtensions.Contains(fileInfo.Extension) ? Media.Video : throw new DomainException("Formato errado de arquivo!"); ;
         }
 
         private string UploadImage(IFormFile file)

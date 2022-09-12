@@ -4,8 +4,11 @@
     {
         public int Page { get; set; }
         public int Qtd { get; set; }
-        public int Total { get; set; }
-        public int TotalPages { get; set; }
+        public long Total { get; set; }
+        public long TotalPages { get; set; }
+
         public ICollection<T> Data { get; set; }
+
+
     }
 }

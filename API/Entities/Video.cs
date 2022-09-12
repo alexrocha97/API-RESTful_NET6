@@ -1,5 +1,4 @@
-﻿using API.Domain;
-using API.Entities.Enums;
+﻿using API.Entities.Enums;
 using API.Infra;
 using MongoDB.Bson.Serialization.Attributes;
 
@@ -7,46 +6,43 @@ namespace API.Entities
 {
     public class Video : BaseEntity
     {
-        public Video(
-            string Hat, 
-            string title,
-            string author, 
-            string thumbnail, 
-            Status status, 
-            string url)
+        public Video(string hat, string title, string author, string thumbnail,string urlVideo, Status status)
         {
-            this.Hat = Hat;
+            Hat = hat;
             Title = title;
             Author = author;
             Thumbnail = thumbnail;
             PublishDate = DateTime.Now;
-            Slug = Helper.GenerateSlug(title);
+            Slug = Helper.GenerateSlug(Title);
             Status = status;
-            Url = url;
-
+            UrlVideo = urlVideo;
             ValidateEntity();
         }
 
-        [BsonElement("Hat")]
-        public string Hat { get; set; }
+        [BsonElement("hat")]
+        public string Hat { get; private set; }
+
         [BsonElement("title")]
-        public string Title { get; set; }
+        public string Title { get; private set; }       
+
         [BsonElement("author")]
-        public string Author { get; set; }
+        public string Author { get; private set; }
 
-        [BsonElement("Thumbnail")]
-        public string Thumbnail { get; set; }
+        [BsonElement("thumbnail")]
+        public string Thumbnail { get; private set; }
 
-        [BsonElement("Url")]
-        public string Url { get; set; }
+        [BsonElement("urlVideo")]
+        public string UrlVideo { get; private set; }
+
 
         public void ValidateEntity()
         {
-            AssertionConcern.AssertArgumentNotEmpty(Title, "O título não pode está vazio");
-            AssertionConcern.AssertArgumentNotEmpty(Hat, "O chapéu não pode está vazio");
+            AssertionConcern.AssertArgumentNotEmpty(Title, "O título não pode estar vazio!");
+            AssertionConcern.AssertArgumentNotEmpty(Hat, "O chapéu não pode estar vazio!");
 
-            AssertionConcern.AssertArgumentLength(Title, 90, "O título deve ter até 90 caracteres");
-            AssertionConcern.AssertArgumentLength(Hat, 40, "O chapéu deve ter até 40 caracteres");
+            AssertionConcern.AssertArgumentLength(Title, 90, "O título deve ter até 90 caracteres!");
+            AssertionConcern.AssertArgumentLength(Hat, 40, "O chapéu deve ter até 40 caracteres!");
         }
+
     }
 }

@@ -39,47 +39,150 @@ E:\Cursos_Udemy\Dotnet\CursoDotNet6\API\obj\Debug\net6.0\refint\API.dll
 E:\Cursos_Udemy\Dotnet\CursoDotNet6\API\obj\Debug\net6.0\API.pdb
 E:\Cursos_Udemy\Dotnet\CursoDotNet6\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 E:\Cursos_Udemy\Dotnet\CursoDotNet6\API\obj\Debug\net6.0\ref\API.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\appsettings.json
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\API.exe
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\API.deps.json
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\API.runtimeconfig.json
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\API.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\API.pdb
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\DnsClient.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\MongoDB.Bson.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\MongoDB.Driver.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\MongoDB.Driver.Core.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\SharpCompress.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.AssemblyInfo.cs
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.csproj.CoreCompileInputs.cache
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.csproj.CopyComplete
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\refint\API.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.pdb
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\API.genruntimeconfig.cache
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\API_NetCore06\API\obj\Debug\net6.0\ref\API.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\appsettings.json
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\API.exe
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\API.deps.json
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\API.runtimeconfig.json
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\API.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\API.pdb
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\DnsClient.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.AssemblyInfo.cs
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.csproj.CoreCompileInputs.cache
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.csproj.CopyComplete
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\refint\API.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.pdb
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\API.genruntimeconfig.cache
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\obj\Debug\net6.0\ref\API.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\ImageProcessor.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\ImageProcessor.Plugins.WebP.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tadri\Downloads\CursoDotNet6\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.AssemblyInfo.cs
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.csproj.CoreCompileInputs.cache
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cs
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cache
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\refint\API.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.pdb
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\appsettings.Development.json
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\appsettings.json
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\API.exe
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\API.deps.json
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\API.runtimeconfig.json
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\API.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\API.pdb
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\AutoMapper.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\DnsClient.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\ImageProcessor.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\ImageProcessor.Plugins.WebP.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Bson.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Driver.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\SharpCompress.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\staticwebassets.build.json
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\staticwebassets.development.json
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.csproj.CopyComplete
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\API.genruntimeconfig.cache
+F:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6\API\obj\Debug\net6.0\ref\API.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\appsettings.Development.json
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\appsettings.json
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\API.exe
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\API.deps.json
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\API.runtimeconfig.json
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\API.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\ref\API.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\API.pdb
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\AutoMapper.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\DnsClient.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\ImageProcessor.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\ImageProcessor.Plugins.WebP.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\SharpCompress.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.AssemblyInfo.cs
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.csproj.CoreCompileInputs.cache
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cs
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cache
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\staticwebassets.build.json
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\staticwebassets.development.json
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.csproj.CopyComplete
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\ref\API.dll
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.pdb
+D:\CURSO_DOTNET6\CursoDotNet6 (1)\CursoDotNet6_modulo_ajustes_backend\CursoDotNet6\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\appsettings.json
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\API.exe
@@ -90,7 +193,10 @@ C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_P
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\DnsClient.dll
+C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\ImageProcessor.dll
+C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\ImageProcessor.Plugins.WebP.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\MongoDB.Bson.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\MongoDB.Driver.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\MongoDB.Driver.Core.dll
@@ -99,12 +205,16 @@ C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_P
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
@@ -121,10 +231,3 @@ C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_P
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\obj\Debug\net6.0\API.pdb
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\obj\Debug\net6.0\ref\API.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\ImageProcessor.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\ImageProcessor.Plugins.WebP.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\ventu\OneDrive\Documentos\Meus dados pessoais\Repositórios\02 - PROJ_Pessoais\03 - Projeto_Andamento\API-RESTful_NET6\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll

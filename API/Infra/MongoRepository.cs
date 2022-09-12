@@ -1,12 +1,13 @@
 ﻿using API.Entities;
 using MongoDB.Driver;
+using System.Collections.Generic;
 
 namespace API.Infra
 {
     public interface IMongoRepository<T>
     {
-        Result<T> GetAll(int page, int qtd);
-        T GetById(string id);
+        Result<T> Get(int page, int qtd);
+        T Get(string id);
         T GetBySlug(string slug);
         T Create(T news);
         void Update(string id, T news);
@@ -25,24 +26,25 @@ namespace API.Infra
 
             _model = database.GetCollection<T>(typeof(T).Name.ToLower());
         }
-        public Result<T> GetAll(int page, int qtd)
+        public Result<T> Get(int page, int qtd)
         {
             var result = new Result<T>();
             result.Page = page;
             result.Qtd = qtd;
-            var filter = Builders<T>.Filter.Eq(entity => entity.Deleted,false);
-            var totalDocuments = _model.CountDocuments(filter);
+            var filter = Builders<T>.Filter.Eq(entity => entity.Deleted, false);
 
-            result.Data = _model.Find(filter).SortByDescending(entity => entity.PublishDate).Skip((page - 1) * qtd).Limit(qtd).ToList();
+            result.Data = _model.Find(filter)
+                .SortByDescending(entity => entity.PublishDate)
+                .Skip((page - 1) * qtd).Limit(qtd).ToList();
 
-            result.Total = (int)totalDocuments;
-
+            result.Total = _model.CountDocuments(filter);
             result.TotalPages = result.Total / qtd;
 
             return result;
+
         }
 
-        public T GetById(string id) =>
+        public T Get(string id) =>
             _model.Find<T>(news => news.Id == id && news.Deleted == false).FirstOrDefault();
 
         public T Create(T news)
@@ -55,14 +57,14 @@ namespace API.Infra
 
         public void Remove(string id)
         {
-            var news = GetById(id);
+            var news = Get(id);
             news.Deleted = true;
             _model.ReplaceOne(news => news.Id == id, news);
         }
 
-        public T GetBySlug(string slug)
-        {
-            return _model.Find<T>(news => news.Slug == slug && news.Deleted == false).FirstOrDefault();
-        }
+        public T GetBySlug(string slug) =>
+         _model.Find<T>(news => news.Slug == slug && news.Deleted == false).FirstOrDefault();
+
+
     }
 }
