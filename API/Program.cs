@@ -26,6 +26,7 @@ builder.Services.AddSingleton<IDatabaseSettings>(sp => sp.GetRequiredService<IOp
 builder.Services.AddSingleton(typeof(IMongoRepository<>), typeof(MongoRepository<>));
 builder.Services.AddSingleton<NewsService>();
 builder.Services.AddSingleton<VideoService>();
+builder.Services.AddTransient<UploadService>();
 builder.Services.AddSingleton<ProdutoService>();
 builder.Services.AddSingleton<IProdutoApp,ProdutoApp>();
 builder.Services.AddSingleton<IUploadImg, UploadImg>();
@@ -60,8 +61,8 @@ app.UseCors(c =>
 
 #region StaticFiles
 app.UseStaticFiles(new StaticFileOptions{
-    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "Imagens")),
-    RequestPath = "/img"
+    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "Medias")),
+    RequestPath = "/medias"
 });
 #endregion
 

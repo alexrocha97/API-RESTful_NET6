@@ -4,3 +4,7 @@ API_tests.Entites.NewsTests.News_Validate_Hat_Length
 API_tests.Entites.NewsTests.News_Validate_Title_Empty
 API_tests.Entites.NewsTests.News_Validate_Hat_Empty
 API_tests.Entites.NewsTests.News_Validate_Description_Empty
+API_tests.Entites.VideoTests.News_Validate_Title_Length
+API_tests.Entites.VideoTests.News_Validate_Hat_Length
+API_tests.Entites.VideoTests.News_Validate_Title_Empty
+API_tests.Entites.VideoTests.News_Validate_Hat_Empty

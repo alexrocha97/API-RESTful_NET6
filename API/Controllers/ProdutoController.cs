@@ -15,9 +15,9 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<List<Produto>> GetAll()
+        public async Task<List<Produto>> GetAll(int page, int qtd)
         {
-            return await _produtoApp.GetAll();
+            return await _produtoApp.GetAll(page, qtd);
         }
 
         [HttpGet("{Id}")]

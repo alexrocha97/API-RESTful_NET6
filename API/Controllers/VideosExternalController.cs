@@ -21,18 +21,7 @@ namespace API.Controllers
 
         [HttpGet]
         public ActionResult<Result<VideoViewModel>> GetAll(int page, int qtd) => _videoService.GetAll(page, qtd);
-
-        [HttpGet("{id:length(24)}", Name = "GetNews")]
-        public ActionResult<VideoViewModel> GetId(string id)
-        {
-            var news = _videoService.Get(id);
-
-            if (news is null)
-                return NotFound();
-
-            return news;
-        }
-
+        
         [HttpGet("GetBySlug/{slug}")]
         public ActionResult<VideoViewModel> GetBySlug(string slug)
         {

@@ -8,8 +8,13 @@ namespace API.Mappers
     {
         public EntityToViewModelMapping()
         {
-            CreateMap<News, NewsViewModel>();
-            CreateMap<Video, VideoViewModel>();
+            // Entidades
+            CreateMap<News, NewsViewModel>().ReverseMap();
+            CreateMap<Video, VideoViewModel>().ReverseMap();
+
+            // Results
+            CreateMap<Result<Video>, Result<VideoViewModel>>().ReverseMap();
+            CreateMap<Result<News>, Result<NewsViewModel>>().ReverseMap();
         }
     }
 }
