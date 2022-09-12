@@ -7,6 +7,7 @@ namespace API.Infra
     public interface IMongoRepository<T>
     {
         Result<T> Get(int page, int qtd);
+        List<T> Getall();
         T Get(string id);
         T GetBySlug(string slug);
         T Create(T news);
@@ -65,6 +66,9 @@ namespace API.Infra
         public T GetBySlug(string slug) =>
          _model.Find<T>(news => news.Slug == slug && news.Deleted == false).FirstOrDefault();
 
-
+        public List<T> Getall()
+        {
+            return _model.AsQueryable().ToList();
+        }
     }
 }

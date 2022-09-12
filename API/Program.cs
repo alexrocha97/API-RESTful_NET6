@@ -22,6 +22,7 @@ builder.Services.AddSingleton<IDatabaseSettings>(sp => sp.GetRequiredService<IOp
 builder.Services.AddSingleton(typeof(IMongoRepository<>), typeof(MongoRepository<>));
 builder.Services.AddSingleton<NewsService>();
 builder.Services.AddSingleton<VideoService>();
+builder.Services.AddSingleton<UserService>();
 builder.Services.AddTransient<UploadService>();
 #endregion
 

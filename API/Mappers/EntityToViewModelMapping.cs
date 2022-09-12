@@ -11,6 +11,7 @@ namespace API.Mappers
             #region [Entidades]
             CreateMap<News, NewsViewModel>();
             CreateMap<Video, VideoViewModel>().ReverseMap();
+            CreateMap<User, UserViewModel>().ReverseMap();
             #endregion
 
             #region [Result<T>]
